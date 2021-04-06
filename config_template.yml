@@ -1,0 +1,28 @@
+phone: 
+  - '(512)1234567' 
+  - '(512)7654321'
+use_imessage: yes
+
+city_list: 
+  - 'Austin'
+  - 'West Lake Hills' 
+  - 'Buda'
+  - 'Kyle'
+  - 'Dripping Springs' 
+  - 'Bee Cave' 
+  - 'Lakeway'
+  - 'Wimberley' 
+  - 'Pflugerville'
+use_city: no
+
+type_list: 
+  - 'Janssen' 
+  # - 'Moderna'
+  # - 'Pfizer'
+use_type: no
+
+max_distance: 200.0  #miles
+use_distance: yes 
+
+my_zipcode: '78750'
+chrome_driver_path: '/PATH/to/chromedriver'
