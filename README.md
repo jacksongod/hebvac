@@ -1,7 +1,7 @@
 # hebvac
 
 ## Intro
-The script help find HEB vaccine slot. It will driver chrome browser and find the earliest available slot with requirements set and enters the final personal schedule page. Then send Imessage to alert user to complete personal info to schedule the appointment.
+The script help find HEB vaccine slot. It drives chrome browser and find the earliest available slot with requirements defined. Proceeds to the final schedule page. Send Imessage to alert user to complete personal info to schedule the appointment.
 
 
 ## Requirements 
@@ -17,7 +17,7 @@ The script help find HEB vaccine slot. It will driver chrome browser and find th
 pip3 install -r requirements.txt
 ```
 
-3. Rename/copy config_template.yaml  to config.yaml
+3. Copy config_template.yaml  as config.yaml
 4. Modify config.yaml with intended requirements 
     - There are 3 filters for cities , distance and vaccine types. use_* key are to enabled them . 
     - Multiple filters are AND together . 

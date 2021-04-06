@@ -96,7 +96,7 @@ class Hebvac:
             print (f'submit failed for {title}')
             return None 
 
-        Hebvac.send_imessage(self.phone, f'Lei了进去了 {distance} miles {title} {selected_date} {selected_time} {address} ',disable = not self.use_imessage)
+        Hebvac.send_imessage(self.phone, f'Found {distance} miles {title} {selected_date} {selected_time} {address}. You have 10 mins',disable = not self.use_imessage)
         time.sleep(1200)
 
     def in_list_of_location (self, element , location_list):
